@@ -8,15 +8,12 @@
   </head>
   <body>
     <script>
-      let time = prompt("请输入小时：");
-      if (time < 12) {
-        document.write(`上午好，好好工作`);
-      } else if (time < 18) {
-        document.write(`下午好，好好工作`);
-      } else if (time < 20) {
-        document.write(`晚上好，好好工作`);
-      } else {
-        document.write(`夜深了，好好工作`);
+      while (true) {
+        let str = prompt("小陈爱小汪吗");
+        if (str === "爱") {
+          alert("我也爱你啊");
+          break;
+        }
       }
     </script>
   </body>
